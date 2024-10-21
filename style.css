@@ -1,0 +1,104 @@
+
+.custom-footer {
+  width: 100%;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #005f74; 
+}
+
+.custom-background {
+  background-color: #f0f4f8;
+  padding: 3rem; 
+  margin-top: 4rem; 
+  margin-bottom: 3rem; 
+}
+
+.custom-text {
+  color: black;
+  text-align: justify; 
+}
+
+.custom-footer p {
+  color: white; 
+}
+
+.profile-image {
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-left: 20px; 
+}
+
+.about-section {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  margin-top: 40px; 
+}
+
+.btn {
+  display: flex;                
+  align-items: center;         
+  justify-content: center;     
+}
+
+.btn svg {
+  margin-right: 8px;           
+  width: 20px;                 
+  height: 20px;                
+}
+
+.btn-custom {
+  background: linear-gradient(to right, #007c92, #005f74); 
+  color: white;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(to right, #005f74, #004d5d); 
+}
+
+.btn-custom-resume {
+  background: linear-gradient(to right, #007c92, #005f74); 
+  color: white;
+}
+
+.btn-custom-resume:hover {
+  background: linear-gradient(to right, #005f74, #004d5d); 
+}
+
+.narrow-button {
+  width: 200px; 
+  margin: 0 auto; 
+}
+
+.card {
+  color: white;
+}
+
+.card .btn-light {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+.card .btn-secondary {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #333;
+}
+
+
+form .form-control {
+  border-radius: 0.25rem; 
+}
+
+form .btn-custom {
+  background-color: #3498db; 
+  color: #fff;
+}
+
+form .btn-custom:hover {
+  background-color: #2980b9; 
+}
